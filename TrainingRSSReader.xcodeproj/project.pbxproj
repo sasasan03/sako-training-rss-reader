@@ -10,6 +10,9 @@
 		692E35542C159DE900B14E0D /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 692E35532C159DE900B14E0D /* XMLCoder */; };
 		692E35582C15A4F200B14E0D /* YahooRSSFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */; };
 		692E355A2C15A5AA00B14E0D /* RSSFeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */; };
+		692E355C2C15A85500B14E0D /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E355B2C15A85500B14E0D /* FeedViewModel.swift */; };
+		692E355E2C15AA5600B14E0D /* YahooRSSFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */; };
+		692E35622C15AC6500B14E0D /* RSSFeedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35612C15AC6500B14E0D /* RSSFeedError.swift */; };
 		69F8B3542C126B3700C9915E /* TrainingRSSReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */; };
 		69F8B3562C126B3700C9915E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8B3552C126B3700C9915E /* ContentView.swift */; };
 		69F8B3582C126B3800C9915E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8B3572C126B3800C9915E /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooRSSFeedFetcher.swift; sourceTree = "<group>"; };
 		692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedEntity.swift; sourceTree = "<group>"; };
+		692E355B2C15A85500B14E0D /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooRSSFeedRepository.swift; sourceTree = "<group>"; };
+		692E35612C15AC6500B14E0D /* RSSFeedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedError.swift; sourceTree = "<group>"; };
 		69F8B3502C126B3700C9915E /* TrainingRSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingRSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRSSReaderApp.swift; sourceTree = "<group>"; };
 		69F8B3552C126B3700C9915E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +85,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		692E355F2C15AAEB00B14E0D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */,
+				692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */,
+				692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		692E35602C15AC2200B14E0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				692E35612C15AC6500B14E0D /* RSSFeedError.swift */,
+				692E355F2C15AAEB00B14E0D /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		69F8B3472C126B3700C9915E = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +130,8 @@
 				69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */,
 				69F8B3552C126B3700C9915E /* ContentView.swift */,
 				69F8B3802C13278700C9915E /* YhahooRSSTest.swift */,
-				692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */,
-				692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */,
+				692E355B2C15A85500B14E0D /* FeedViewModel.swift */,
+				692E35602C15AC2200B14E0D /* Model */,
 				69F8B3572C126B3800C9915E /* Assets.xcassets */,
 				69F8B3592C126B3800C9915E /* Preview Content */,
 			);
@@ -278,9 +303,12 @@
 			files = (
 				692E355A2C15A5AA00B14E0D /* RSSFeedEntity.swift in Sources */,
 				69F8B3812C13278700C9915E /* YhahooRSSTest.swift in Sources */,
+				692E355C2C15A85500B14E0D /* FeedViewModel.swift in Sources */,
+				692E35622C15AC6500B14E0D /* RSSFeedError.swift in Sources */,
 				69F8B3562C126B3700C9915E /* ContentView.swift in Sources */,
 				69F8B3542C126B3700C9915E /* TrainingRSSReaderApp.swift in Sources */,
 				692E35582C15A4F200B14E0D /* YahooRSSFeedFetcher.swift in Sources */,
+				692E355E2C15AA5600B14E0D /* YahooRSSFeedRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
