@@ -20,8 +20,7 @@ struct RSSFeedFetcher: RSSFetcherProtocol {
             let decodedFeed = try XMLDecoder().decode(RSSFeed.self, from: data)
             return decodedFeed
         } catch {
-            print("#error1")
-            throw error
+            throw RSSFeedError.rssFetchError
         }
     }
 }

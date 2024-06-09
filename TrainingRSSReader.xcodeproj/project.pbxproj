@@ -89,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */,
-				692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */,
 				692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */,
+				692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
