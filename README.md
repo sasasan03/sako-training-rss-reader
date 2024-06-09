@@ -8,15 +8,16 @@
 
 ## 概要
 - ログイン画面：Firebase(googleアカウントでのログイン)
-- ニュースフィード選択画面(Yahoo!)
-- ニュースフィード一覧画面(Yahoo!)/ニュースフィード詳細画面
+- ニュースフィード選択画面
+- ニュースフィード一覧画面/ニュースフィード詳細画面
 - 設定画面/設定詳細画面
 
 ## 使用技術
 - SwiftUI
 - Firebase
-- Yahoo_RSS(rss_end_point)
-- xmlCoder 
-# 外部ライブラリはSPMで導入 
+- Yahoo_RSS(end_point)
+- XMLCoder 
+
+## 外部ライブラリはSPMで導入 
 
 
