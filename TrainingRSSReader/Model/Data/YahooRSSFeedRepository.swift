@@ -14,10 +14,10 @@ final class YahooRSSFeedRepository {
         self.dataStore = rssFetcherProtocol
     }
     
-    func fetchFeed() throws {
+    func fetchFeed() async throws -> RSSFeed? {
         guard let dataStore else {
             throw RSSFeedError.rssFetchError
         }
+        return try await dataStore.fetchFeed()
     }
-
 }

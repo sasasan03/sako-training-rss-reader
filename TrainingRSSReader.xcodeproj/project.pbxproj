@@ -10,9 +10,16 @@
 		692E35542C159DE900B14E0D /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 692E35532C159DE900B14E0D /* XMLCoder */; };
 		692E35582C15A4F200B14E0D /* YahooRSSFeedFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */; };
 		692E355A2C15A5AA00B14E0D /* RSSFeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */; };
-		692E355C2C15A85500B14E0D /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E355B2C15A85500B14E0D /* FeedViewModel.swift */; };
 		692E355E2C15AA5600B14E0D /* YahooRSSFeedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */; };
 		692E35622C15AC6500B14E0D /* RSSFeedError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35612C15AC6500B14E0D /* RSSFeedError.swift */; };
+		692E35642C166B1D00B14E0D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35632C166B1D00B14E0D /* SplashView.swift */; };
+		692E35662C166B2800B14E0D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35652C166B2800B14E0D /* LoginView.swift */; };
+		692E35682C166B3500B14E0D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35672C166B3500B14E0D /* SignUpView.swift */; };
+		692E356A2C166B4B00B14E0D /* RSSFeedSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35692C166B4B00B14E0D /* RSSFeedSelectionView.swift */; };
+		692E356C2C166B5300B14E0D /* FeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E356B2C166B5300B14E0D /* FeedListView.swift */; };
+		692E356E2C166B5F00B14E0D /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E356D2C166B5F00B14E0D /* ArticleDetailView.swift */; };
+		692E35702C166B6B00B14E0D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E356F2C166B6B00B14E0D /* SettingsView.swift */; };
+		692E35722C166B7400B14E0D /* SettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692E35712C166B7400B14E0D /* SettingsDetailView.swift */; };
 		69F8B3542C126B3700C9915E /* TrainingRSSReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */; };
 		69F8B3562C126B3700C9915E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F8B3552C126B3700C9915E /* ContentView.swift */; };
 		69F8B3582C126B3800C9915E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8B3572C126B3800C9915E /* Assets.xcassets */; };
@@ -43,9 +50,16 @@
 /* Begin PBXFileReference section */
 		692E35572C15A4F200B14E0D /* YahooRSSFeedFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooRSSFeedFetcher.swift; sourceTree = "<group>"; };
 		692E35592C15A5AA00B14E0D /* RSSFeedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedEntity.swift; sourceTree = "<group>"; };
-		692E355B2C15A85500B14E0D /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		692E355D2C15AA5600B14E0D /* YahooRSSFeedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooRSSFeedRepository.swift; sourceTree = "<group>"; };
 		692E35612C15AC6500B14E0D /* RSSFeedError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedError.swift; sourceTree = "<group>"; };
+		692E35632C166B1D00B14E0D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		692E35652C166B2800B14E0D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		692E35672C166B3500B14E0D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		692E35692C166B4B00B14E0D /* RSSFeedSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedSelectionView.swift; sourceTree = "<group>"; };
+		692E356B2C166B5300B14E0D /* FeedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListView.swift; sourceTree = "<group>"; };
+		692E356D2C166B5F00B14E0D /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		692E356F2C166B6B00B14E0D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		692E35712C166B7400B14E0D /* SettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDetailView.swift; sourceTree = "<group>"; };
 		69F8B3502C126B3700C9915E /* TrainingRSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingRSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRSSReaderApp.swift; sourceTree = "<group>"; };
 		69F8B3552C126B3700C9915E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +118,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		692E35732C166B8800B14E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				692E35632C166B1D00B14E0D /* SplashView.swift */,
+				692E35652C166B2800B14E0D /* LoginView.swift */,
+				692E35672C166B3500B14E0D /* SignUpView.swift */,
+				692E35692C166B4B00B14E0D /* RSSFeedSelectionView.swift */,
+				692E356B2C166B5300B14E0D /* FeedListView.swift */,
+				692E356D2C166B5F00B14E0D /* ArticleDetailView.swift */,
+				692E356F2C166B6B00B14E0D /* SettingsView.swift */,
+				692E35712C166B7400B14E0D /* SettingsDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		69F8B3472C126B3700C9915E = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +159,7 @@
 				69F8B3532C126B3700C9915E /* TrainingRSSReaderApp.swift */,
 				69F8B3552C126B3700C9915E /* ContentView.swift */,
 				69F8B3802C13278700C9915E /* YhahooRSSTest.swift */,
-				692E355B2C15A85500B14E0D /* FeedViewModel.swift */,
+				692E35732C166B8800B14E0D /* View */,
 				692E35602C15AC2200B14E0D /* Model */,
 				69F8B3572C126B3800C9915E /* Assets.xcassets */,
 				69F8B3592C126B3800C9915E /* Preview Content */,
@@ -301,12 +330,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692E356C2C166B5300B14E0D /* FeedListView.swift in Sources */,
+				692E35722C166B7400B14E0D /* SettingsDetailView.swift in Sources */,
+				692E356E2C166B5F00B14E0D /* ArticleDetailView.swift in Sources */,
 				692E355A2C15A5AA00B14E0D /* RSSFeedEntity.swift in Sources */,
+				692E35642C166B1D00B14E0D /* SplashView.swift in Sources */,
 				69F8B3812C13278700C9915E /* YhahooRSSTest.swift in Sources */,
-				692E355C2C15A85500B14E0D /* FeedViewModel.swift in Sources */,
+				692E35662C166B2800B14E0D /* LoginView.swift in Sources */,
 				692E35622C15AC6500B14E0D /* RSSFeedError.swift in Sources */,
+				692E35702C166B6B00B14E0D /* SettingsView.swift in Sources */,
 				69F8B3562C126B3700C9915E /* ContentView.swift in Sources */,
+				692E35682C166B3500B14E0D /* SignUpView.swift in Sources */,
 				69F8B3542C126B3700C9915E /* TrainingRSSReaderApp.swift in Sources */,
+				692E356A2C166B4B00B14E0D /* RSSFeedSelectionView.swift in Sources */,
 				692E35582C15A4F200B14E0D /* YahooRSSFeedFetcher.swift in Sources */,
 				692E355E2C15AA5600B14E0D /* YahooRSSFeedRepository.swift in Sources */,
 			);
